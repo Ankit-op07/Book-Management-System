@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+   
+    background-image: url(images/jaredd-craig-HH4WBGNyltc-unsplash.jpg);
+    height: 100vh;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+
+}
+.navbar{
+    height:150px;
+    width:100%;
+   display:flex;
+ 
+   justify-content:center;
+   align-items:center;
+    background-color:rgb(185, 185, 255);
+}
+.navbar h1 {
+    font-size:50px;
+}
+
+
+.main_section{
+   position:absolute;
+   top:150px;
+   /* background-color:red; */
+    width:100%;
+}
+
+.add_section{
+height:200px;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.add_btn{
+cursor: pointer;
+background-color: coral;
+color:black;
+border:3px solid black;
+border-radius:10px;
+
+}
+
+.displayBooks{
+/* background-color:bisque; */
+width:100%;
+display:flex;
+justify-content:space-around;
+align-items:center;
+flex-wrap:wrap;
+
+}
+.book_card{
+    margin:5px;
+    height:300px;
+    width:300px;
+    background-color:rgb(125, 218, 88);
+    border:3px solid rgb(29, 19, 19);
+    border-radius:10px;
+    /* text-align:center; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+}
+.book_card_btn{
+    padding: 10px;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.15s ease-in-out;
+    width:200px
+}
